@@ -1,0 +1,28 @@
+h1.PageTitle {
+    color: darkred;
+}
+
+p.PageTitle {
+    color: deeppink;
+}
+
+ul {
+    color: darkviolet;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    color: purple;
+    background-color: #673AB7!important;
+}
+
+body {
+    background-color: #607D8B;
+}
+
+/* .container {
+    background-color: seashell;
+} */
+
+.row {
+    background-color: #e9ecef;
+}
