@@ -1,14 +1,3 @@
-h1.PageTitle {
-    color: darkred;
-}
-
-p.PageTitle {
-    color: deeppink;
-}
-
-ul {
-    color: darkviolet;
-}
 
 .navbar.navbar-expand-lg.navbar-light.bg-light {
     color: purple;
@@ -25,4 +14,36 @@ body {
 
 .row {
     background-color: #e9ecef;
+}
+
+.container.rounded {
+    border-radius:.25rem!important
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(107, 0, 128);
+    border-color: gray;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #673AB7!important;
+    border-color: gray; /*set the color you want here*/
+}
+
+.dropdown-item.active,.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(107, 0, 128);
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+    margin: .25rem;
 }
