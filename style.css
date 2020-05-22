@@ -12,7 +12,7 @@ body {
     background-color: seashell;
 } */
 
-.row {
+.contentColumn {
     background-color: #e9ecef;
 }
 
@@ -47,3 +47,27 @@ body {
     height: auto;
     margin: .25rem;
 }
+
+.rounded {
+    border-radius: 25px;
+    padding: 1%;
+}
+
+.img-thumbnail {
+    width: 150px;
+}
+
+.leftInner {
+    margin-right: 10px;
+    /* background-color: hotpink; */
+}
+
+.leftColumn {
+    background-color:#e9ecef;
+    margin-right: 10px;
+}
+
+/*add with media query
+td {
+    font-size: ;
+}*/
